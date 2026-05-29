@@ -41,8 +41,8 @@ body {
     line-height: var(--line-height-base);
 }
 
-/* Linklər üçün psevdo-siniflər */
-a {
+/* Linklər və onların psevdo-sinifləri */
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
