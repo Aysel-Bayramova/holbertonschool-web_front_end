@@ -24,6 +24,7 @@
 
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }
@@ -41,8 +42,8 @@ body {
     line-height: var(--line-height-base);
 }
 
-/* Linklər və onların psevdo-sinifləri */
-a[href] {
+/* Only hyperlinks */
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
